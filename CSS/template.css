@@ -1,0 +1,405 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	background-color: #34495E;
+    margin-bottom: 100rem;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    
+}
+
+.menuText{
+    color: #ffca00;
+}
+
+/*Bootstraps egna grundformattering som jag har modifierat*/
+
+.navbar-nav {
+	min-height: 33px !important;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+	padding-top: 6px !important;
+    padding-bottom: 0 !important;
+    height: 33px;
+}
+
+.navbar {
+  background-color: #1B5C88;
+}
+.navbar .navbar-brand {
+  color: #ffffff;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #ffca00;
+}
+.navbar .navbar-text {
+  color: #ffffff;
+}
+.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #ffca00;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #ffca00;
+  background-color: #155B8A;
+}
+.navbar .navbar-toggle {
+  border-color: #2bb1e1;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #2bb1e1;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+  color: #ffffff;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #ffffff;
+    text-align: center;
+}
+.navbar .navbar-link {
+  color: #ffffff;
+}
+.navbar .navbar-link:hover {
+  color: #ffca00;
+}
+
+.dropdown-menu, .dropdown-item{
+    background-color: #1f79b4;
+    color: #ffffff;
+}
+
+.dropdown-menu:hover, .dropdown-menu:focus, .dropdown-item:focus, .dropdown-item:hover{
+    background-color: #1f79b4;
+    color: #ffca00;
+}
+
+/*Formattering jag har adderat själv*/
+
+.navButton {
+    
+    background-color: #014C7F;
+    color: #ffca00;
+	
+}
+
+.navButton:hover, .navButton:focus {
+    
+    color: #ffca00;
+    background: #155B8A; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #155B8A, #2bb1e1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #155B8A, #2bb1e1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #155B8A, #2bb1e1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #155B8A, #2bb1e1); /* Standard syntax */
+	
+}
+
+.logButton {
+    
+    background-color: #014C7F;
+    color: #ffca00;
+	
+}
+
+.logButton:hover, .logButton:focus {
+    
+    color: #ffca00;
+    background: #155B8A; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #155B8A, #2bb1e1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #155B8A, #2bb1e1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #155B8A, #2bb1e1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #155B8A, #2bb1e1); /* Standard syntax */
+	
+}
+
+.footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 6rem;
+        line-height: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+}
+
+a, i{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+}
+
+a:hover{
+    color: #ffca00;
+}
+
+.current {
+
+    background: #2bb1e1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #155B8A, #2bb1e1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #155B8A, #2bb1e1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #155B8A, #2bb1e1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #155B8A, #2bb1e1); /* Standard syntax */
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    margin: 1rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    background-color: #1f79b4;
+}
+h5{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+h6{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.75rem;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    text-decoration-line: underline;
+}
+
+li{
+    font-size: 150%;
+    margin: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.locationDashBoard{
+    font-family: 'Quantico', sans-serif;
+    font-size: 1rem;
+    width: auto;
+	height: auto;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: #1f79b4;
+    border: 0.5rem solid white;
+    background: #2bb1e1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #155B8A, #2bb1e1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #155B8A, #2bb1e1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #155B8A, #2bb1e1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #155B8A, #2bb1e1); /* Standard syntax */
+
+}
+
+.menuCenter{
+    align-content: center;
+    width: 90px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.dashBoard{
+    background-color: white;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.frame{
+    background-color: #1f79b4;
+    border: 0.8rem solid white;
+    padding: 1rem; 
+    align-content: center;
+    display: block;
+    margin-left: 10rem;
+	margin-right: 10rem;
+    margin-top: auto;
+	margin-bottom: auto;
+    max-width: 75%;
+    max-height:  75%;
+}
+
+.buttonSignUp{
+    
+    border: 0.25rem solid white; 
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+    margin-top: auto;
+	margin-bottom: auto;
+}
+
+
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 80%;
+    text-align: center;
+    margin: auto;
+    align-content: center;
+    background-color: #34495E;
+    color: white;
+}
+
+.custom-toggler.navbar-toggler {
+
+    border-color: rgb(255,215,0);
+    background: #014C7F; /* For browsers that do not support gradients */
+
+}
+
+.custom-toggler.navbar-toggler:hover {
+
+    background: #155B8A; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #155B8A, #2bb1e1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #155B8A, #2bb1e1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #155B8A, #2bb1e1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #155B8A, #2bb1e1); /* Standard syntax */
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,215,0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.imgIndex{
+    padding: 1rem; 
+    align-content: center;
+    display: block;
+    margin-left: 5rem;
+	margin-right: 5rem;
+    max-width: 85%;
+    max-height: 85%;
+}
+
+.dashboardImg{
+    background-color: #155B8A;
+    border: 10rem solid;
+    border-radius: 50%;
+    padding: 1rem; 
+    align-content: center;
+    display: block;
+    margin-left: 10rem;
+	margin-right: 10rem;
+    margin-top: auto;
+	margin-bottom: auto;
+    max-width: 75%;
+    max-height:  75%;
+}
+/*Media från Bootstraps Grid*/
+
+@media (max-width: 767px) {
+  .navbar .navbar-nav .open .dropdown-menu .dropdown-item{
+    color: #ffffff;
+    background-color: #2bb1e1;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    align-content: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+      
+  }
+    
+   .logInImg{
+    background-color: white;
+    max-width: 30%;
+    max-height:  30%;
+       
+} 
+  .navbar .navbar-nav .open .dropdown-menu .dropdown-item:hover,
+  .navbar .navbar-nav .open .dropdown-menu .dropdown-item:focus {
+    color: #ffca00;
+    background-color: #2bb1e1;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    align-content: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .navbar .navbar-nav .open .dropdown-menu .dropdown-item.active {
+    color: #ffca00;
+    background-color: #2bb1e1;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    align-content: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
